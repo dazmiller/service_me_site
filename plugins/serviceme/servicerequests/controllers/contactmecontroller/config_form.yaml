@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Contact Me Controller
+
+# Model Form Field configuration
+form: $/serviceme/servicerequests/models/contactmecontroller/fields.yaml
+
+# Model Class name
+modelClass: ServiceMe\ServiceRequests\Models\ContactMeController
+
+# Default redirect location
+defaultRedirect: serviceme/servicerequests/contactmecontroller
+
+# Create page
+create:
+    title: Create Contact Me Controller
+    redirect: serviceme/servicerequests/contactmecontroller/update/:id
+    redirectClose: serviceme/servicerequests/contactmecontroller
+
+# Update page
+update:
+    title: Edit Contact Me Controller
+    redirect: serviceme/servicerequests/contactmecontroller
+    redirectClose: serviceme/servicerequests/contactmecontroller
+
+# Preview page
+preview:
+    title: Preview Contact Me Controller

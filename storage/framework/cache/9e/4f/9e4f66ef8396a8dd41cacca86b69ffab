@@ -1,0 +1,31 @@
+1435884885s:1784:"a:6:{s:5:"mtime";i:1435279885;s:7:"content";s:754:"description = "lower highlighted message area for adverts"
+
+[viewBag]
+snippetCode = "message-pane-bottom"
+snippetName = "Message Pane Bottom"
+==
+<div class="buy">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                <h2>This is <span>The Best</span> way to save money and take back control of your information. Demo</h2>
+                <h5>It’s Suitable for everyday people to 'flip' the way we do business.</h5>
+            </div>
+            <div class="col-sm-3 center">
+                <a href="{{ url('register') }}" rel="nofollow" target="_blank" class="btn btn-default btn-default2">Register Now</a>
+            </div>
+        </div>
+    </div>
+</div><!-- end buy section-->";s:7:"viewBag";a:2:{s:11:"snippetCode";s:19:"message-pane-bottom";s:11:"snippetName";s:19:"Message Pane Bottom";}s:8:"settings";a:2:{s:11:"description";s:42:"lower highlighted message area for adverts";s:10:"components";a:1:{s:7:"viewBag";a:2:{s:11:"snippetCode";s:19:"message-pane-bottom";s:11:"snippetName";s:19:"Message Pane Bottom";}}}s:4:"code";N;s:6:"markup";s:603:"<div class="buy">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                <h2>This is <span>The Best</span> way to save money and take back control of your information. Demo</h2>
+                <h5>It’s Suitable for everyday people to 'flip' the way we do business.</h5>
+            </div>
+            <div class="col-sm-3 center">
+                <a href="{{ url('register') }}" rel="nofollow" target="_blank" class="btn btn-default btn-default2">Register Now</a>
+            </div>
+        </div>
+    </div>
+</div><!-- end buy section-->";}";

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: User Profile Controller
+
+# Model Form Field configuration
+form: $/serviceme/servicerequests/models/userprofilecontroller/fields.yaml
+
+# Model Class name
+modelClass: ServiceMe\ServiceRequests\Models\UserProfileController
+
+# Default redirect location
+defaultRedirect: serviceme/servicerequests/userprofilecontroller
+
+# Create page
+create:
+    title: Create User Profile Controller
+    redirect: serviceme/servicerequests/userprofilecontroller/update/:id
+    redirectClose: serviceme/servicerequests/userprofilecontroller
+
+# Update page
+update:
+    title: Edit User Profile Controller
+    redirect: serviceme/servicerequests/userprofilecontroller
+    redirectClose: serviceme/servicerequests/userprofilecontroller
+
+# Preview page
+preview:
+    title: Preview User Profile Controller

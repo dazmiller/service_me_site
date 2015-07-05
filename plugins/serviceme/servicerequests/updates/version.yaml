@@ -1,0 +1,6 @@
+1.0.1: First version of RealEstate
+1.0.2:
+    - Create real estates Table
+    - create_model__real_estates_table.php
+    - create_buy_vehicle_commericals_table.php
+    - SeedRealEstateTable.php

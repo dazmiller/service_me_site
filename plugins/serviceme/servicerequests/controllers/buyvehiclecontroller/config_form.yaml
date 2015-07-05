@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Buy Vehicle Controller
+
+# Model Form Field configuration
+form: $/serviceme/servicerequests/models/buy_vehicle_commerical/fields.yaml
+
+# Model Class name
+modelClass: ServiceMe\ServiceRequests\Models\BuyVehicleCommerical
+
+# Default redirect location
+defaultRedirect: serviceme/servicerequests/buyvehiclecontroller
+
+# Create page
+create:
+    title: Create Buy Vehicle Controller
+    redirect: serviceme/servicerequests/buyvehiclecontroller/update/:id
+    redirectClose: serviceme/servicerequests/buyvehiclecontroller
+
+# Update page
+update:
+    title: Edit Buy Vehicle Controller
+    redirect: serviceme/servicerequests/buyvehiclecontroller
+    redirectClose: serviceme/servicerequests/buyvehiclecontroller
+
+# Preview page
+preview:
+    title: Preview Buy Vehicle Controller

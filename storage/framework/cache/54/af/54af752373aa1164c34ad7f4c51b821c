@@ -1,0 +1,23 @@
+1435884887s:1207:"a:6:{s:5:"mtime";i:1435279885;s:7:"content";s:471:"description = "Credit Footer"
+
+[viewBag]
+snippetCode = "Credit-Footer"
+snippetName = "Credits Footer"
+==
+<div class="bottom-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 center">
+                    <p class="copyright">©2015 developed by <strong>Biyers App Pty Ltd</strong>. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div><!-- end bottom-footer -->";s:7:"viewBag";a:2:{s:11:"snippetCode";s:13:"Credit-Footer";s:11:"snippetName";s:14:"Credits Footer";}s:8:"settings";a:2:{s:11:"description";s:13:"Credit Footer";s:10:"components";a:1:{s:7:"viewBag";a:2:{s:11:"snippetCode";s:13:"Credit-Footer";s:11:"snippetName";s:14:"Credits Footer";}}}s:4:"code";N;s:6:"markup";s:360:"<div class="bottom-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 center">
+                    <p class="copyright">©2015 developed by <strong>Biyers App Pty Ltd</strong>. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div><!-- end bottom-footer -->";}";

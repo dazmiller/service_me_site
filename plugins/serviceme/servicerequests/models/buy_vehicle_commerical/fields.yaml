@@ -1,0 +1,565 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    # ID field is displayed only in the backend
+    id:
+        label: ID
+        disabled: true
+        context: [create, update]
+
+    type:
+        label: Type
+        commentAbove: The sales type of the vehicle you wish to find:
+        span: left
+        type: checkboxlist
+        options:
+            New: New Vehicle
+            Demo: Demo Car
+            Used: Used Car
+            Private: Private Sellers
+            ExFleet: Ex Fleet Vehicle
+
+
+    # Slogan field is displayed only in the front-end
+    # slogan:
+    #    label: Slogan
+    #    comment: This field is displayed only in frontend
+    #    span: right
+    #    context: [frontend]
+
+
+    keywords:
+        label: KeyWords
+        commentAbove: Enter some keywords to assist finding your perfect vehicle (optional):
+        span: full
+        placeholder: Enter any keywords that further describe the vehicle you are looking for. Seperate each word with a comma.
+        type: textarea
+        size: small
+
+    make:
+        label: Make
+        span: left
+        commentAbove: Select the Make(s) of vehicle you are looking for:
+        type: checkboxlist
+        options:
+            Abarth: Abarth
+            AC: AC
+            Alfa Romeo: Alfa Romeo
+            Armstrong Siddeley: Armstrong Siddeley
+            Aston Martin: Aston Martin
+            Audi: Audi
+            Austin: Austin
+            Austin Healey: Austin Healey
+            Bentley: Bentley
+            BMW: BMW
+            Bolwell: Bolwell
+            Bufori: Bufori
+            Buick: Buick
+            Cadillac: Cadillac
+            Caterham: Caterham
+            Chery: Chery
+            Chevrolet: Chevrolet
+            Chrysler: Chrysler
+            Citroen: Citroen
+            Custom: Custom
+            Daewoo: Daewoo
+            Daihatsu: Daihatsu
+            Daimler: Daimler
+            Datsun: Datsun
+            Dodge: Dodge
+            Elfin: Elfin
+            Evante: Evante
+            Ferrari: Ferrari
+            Fiat: Fiat
+            Ford: Ford
+            Ford Performance Vehicles: Ford Performance Vehicles
+            Foton: Foton
+            Fuso: Fuso
+            GMC: GMC
+            Great Wall: Great Wall
+            HDT: HDT
+            Hillman: Hillman
+            Hino: Hino
+            Holden: Holden
+            Holden Special Vehicles: Holden Special Vehicles
+            Honda: Honda
+            Hudson: Hudson
+            Hummer: Hummer
+            Hupmobile: Hupmobile
+            Hyundai: Hyundai
+            Infiniti: Infiniti
+            International: International
+            Isuzu: Isuzu
+            Iveco: Iveco
+            Jaguar: Jaguar
+            Jeep: Jeep
+            JMC: JMC
+            Kia: Kia
+            Koenigsegg: Koenigsegg
+            Lamborghini: Lamborghini
+            Lancia: Lancia
+            Land Rover: Land Rover
+            LDV: LDV
+            Lexus: Lexus
+            Leyland: Leyland
+            Lincoln: Lincoln
+            Lotus: Lotus
+            M.G.: M.G.
+            Mahindra: Mahindra
+            Maserati: Maserati
+            Mazda: Mazda
+            McLaren: McLaren
+            Mercedes-Benz: Mercedes-Benz
+            Mercury: Mercury
+            MINI: MINI
+            Mitsubishi: Mitsubishi
+            Morgan: Morgan
+            Morris: Morris
+            Nash: Nash
+            Nissan: Nissan
+            Oldsmobile: Oldsmobile
+            Opel: Opel
+            Peugeot: Peugeot
+            Plymouth: Plymouth
+            Pontiac: Pontiac
+            Porsche: Porsche
+            Proton: Proton
+            Renault: Renault
+            Riley: Riley
+            Rolls-Royce: Rolls-Royce
+            Rover: Rover
+            Saab: Saab
+            Skoda: Skoda
+            smart: smart
+            SsangYong: SsangYong
+            Subaru: Subaru
+            Suzuki: Suzuki
+            Tata: Tata
+            Tesla: Tesla
+            Toyota: Toyota
+            TRD: TRD
+            Triumph: Triumph
+            TVR: TVR
+            Volkswagen: Volkswagen
+            Volvo: Volvo
+            Willys: Willys
+            Wolseley: Wolseley
+            ZX Auto: ZX Auto
+
+    body_type:
+        label: Body Type
+        span: right
+        commentAbove: Select the Body Type of the vehicle:
+        type: checkboxlist
+        options:
+            Cab Chassis: Cab Chassis
+            Convertible: Convertible
+            Coupe: Coupe
+            Hatch: Hatch
+            Light Truck: Light Truck
+            People Mover: People Mover
+            Sedan: Sedan
+            SUV: SUV
+            Ute: Ute
+            Van: Van
+            Wagon: Wagon
+
+    model:
+        label: Vehicle Model
+        span: left
+        commentAbove: Enter the Model(s) of the vehicle:
+        placeholder: Enter the model(s) seperated by a comma.
+
+    year:
+        label: Vehicle Year
+        span: right
+        commentAbove: Enter the Year(s) of the vehicle:
+        placeholder: Enter the Year(s) seperated by a comma.
+
+    certified:
+        label: Approved/Certified
+        span: left
+        commentAbove: Select any certifications you wish the vehicle to have:
+        type: checkboxlist
+        options:
+            Audi Approved: Audi Approved
+            BMW Premium Selection: BMW Premium Selection
+            Ferrari Approved Dealer: Ferrari Approved Dealer
+            Ferrari Approved Vehicle: Ferrari Approved Vehicle
+            Holden Certified: Holden Certified
+            HSV Certified: HSV Certified
+            Mercedes Approved: Mercedes Approved
+            MINI NEXT: MINI NEXT
+            NRMA: NRMA
+            Renault Approved Vehicle: Renault Approved Vehicle
+            Volkswagen Certified: Volkswagen Certified
+
+    price_min:
+        label: Min Price
+        span: left
+        commentAbove: Minimum Price:
+
+    price_max:
+        label: Max Price
+        span: right
+        commentAbove: Maximum Price:
+
+    transmission:
+        label: Transmission
+        span: left
+        commentAbove: Transmission:
+        type: checkboxlist
+        options:
+            Automatic: Automatic
+            Manual: Manual
+
+    kilometres_min:
+        label: Min Km(s)
+        span: left
+        commentAbove: Minimum Kilometres
+
+    kilometres_max:
+        label: Max Km(s)
+        span: right
+        commentAbove: Maximum Kilometres
+
+    colours:
+        label: Colours
+        span: left
+        commentAbove: Select the colour(s) you would like the vehicle to be:
+        type: checkboxlist
+        options:
+            Beige: Beige
+            Black: Black
+            Blue: Blue
+            Bronze: Bronze
+            Brown: Brown
+            Gold: Gold
+            Green: Green
+            Grey: Grey
+            Magenta: Magenta
+            Maroon: Maroon
+            Orange: Orange
+            Pink: Pink
+            Purple: Purple
+            Red: Red
+            Silver: Silver
+            Unknown: Unknown
+            White: White
+            Yellow: Yellow
+
+    fuel_type:
+        label: Fuel Type
+        span: right
+        commentAbove: Select the fuel type:
+        type: checkboxlist
+        options:
+            Electric: Electric
+            LPG only: LPG only
+            Petrol: Petrol
+            Petrol - Premium ULP: Petrol - Premium ULP
+            Petrol - Unleaded ULP: Petrol - Unleaded ULP
+            Petrol or LPG : Petrol or LPG
+            Petrol - Premium ULP: Petrol - Premium ULP
+            Petrol - Unleaded ULP: Petrol - Unleaded ULP
+            Petrol or LPG : Petrol or LPG
+
+    fuel_economy:
+        label: Fuel Economy
+        span: left
+        commentAbove: Select fuel economy options:
+        type: checkboxlist
+        options:
+            4L/100km or less: 4L/100km or less
+            5L/100km or less: 5L/100km or less
+            7L/100km or less: 7L/100km or less
+            9L/100km or less: 9L/100km or less
+            11L/100km or less: 11L/100km or less
+            11L/100km or more: 11L/100km or more
+
+    drive_type:
+        label: Drive Type
+        span: right
+        commentAbove: Select the drive type:
+        type: checkboxlist
+        options:
+            4x4: 4x4
+            6X4: 6X4
+            6X6: 6X6
+            Front Wheel Drive: Front Wheel Drive
+            Rear Wheel Drive: Rear Wheel Drive
+
+    lifestyle:
+        label: LifeStyle
+        span: left
+        commentAbove: Select Life Style options:
+        type: checkboxlist
+        options:
+            Family: Family
+            First Car: First Car
+            Green: Green
+            Offroad 4x4: Offroad 4x4
+            Performance: Performance
+            Prestige: Prestige
+            Tradie: Tradie
+
+    seats_min:
+        label: Minimum Seats:
+        span: left
+        commentAbove: Select the minimum number of seats the vehicle should contain:
+        default: any
+        type: dropdown
+        options:
+            any: any
+            1: 1
+            2: 2
+            3: 3
+            4: 4
+            5: 5
+            6: 6
+            7: 7
+            8: 8
+            9: 9
+
+    seats_max:
+        label: Maximum Seats:
+        span: right
+        commentAbove: Select the maximum number of seats the vehicle should contain:
+        default: any
+        type: dropdown
+        options:
+            any: any
+            1: 1
+            2: 2
+            3: 3
+            4: 4
+            5: 5
+            6: 6
+            7: 7
+            8: 8
+            9: 9
+
+    doors:
+        label: No. Doors:
+        span: left
+        commentAbove: Select the number of doors the vehicle should have:
+        placeholder: Number of doors
+        type: checkboxlist
+        options:
+            2 Doors: 2 Doors
+            3 Doors: 3 Doors
+            4 Doors: 4 Doors
+            5 Doors: 5 Doors
+            6 Doors: 6 Doors
+
+    engine_size_min:
+        label: Minimum Engine Size:
+        span: left
+        commentAbove: Select the minimum engine size:
+        default: any
+        type: dropdown
+        options:
+            any: any
+            1500 cc: 1500 cc
+            2000 cc: 2000 cc
+            2500 cc: 2500 cc
+            3000 cc: 3000 cc
+            3500 cc: 3500 cc
+            4000 cc: 4000 cc
+            4500 cc: 4500 cc
+            5000 cc: 5000 cc
+            5500 cc: 5500 cc
+            6000 cc: 6000 cc
+
+    engine_size_max:
+        label: Maximum Engine Size:
+        span: right
+        commentAbove: Select the maximum engine size:
+        default: any
+        type: dropdown
+        options:
+            any: any
+            1500 cc: 1500 cc
+            2000 cc: 2000 cc
+            2500 cc: 2500 cc
+            3000 cc: 3000 cc
+            3500 cc: 3500 cc
+            4000 cc: 4000 cc
+            4500 cc: 4500 cc
+            5000 cc: 5000 cc
+            5500 cc: 5500 cc
+            6000 cc: 6000 cc
+
+    cylinders:
+        label: Cylinders:
+        span: left
+        commentAbove: Select the number of cylinders:
+        type: dropdown
+        default: any
+        options:
+            any: any
+            2 cylinders: 2 cylinders
+            3 cylinders: 3 cylinders
+            4 cylinders: 4 cylinders
+            5 cylinders: 5 cylinders
+            6 cylinders: 6 cylinders
+            8 cylinders: 8 cylinders
+            10 cylinders: 10 cylinders
+            12 cylinders: 12 cylinders
+
+    engine_type:
+        label: Engine Type:
+        span: right
+        commentAbove: Select the Engine Type:
+        default: any
+        type: dropdown
+        options:
+            any: any
+            Electric: Electric
+            Piston: Piston
+            Piston - Electric: Piston - Electric
+            Rotary: Rotary
+
+    induction_turbo:
+        label: Induction/Turbo:
+        span: left
+        commentAbove: Select the Turbo Type:
+        placeholder: Induction/Turbo
+        type: checkboxlist
+        options:
+            Aspirated: Aspirated
+            Supercharged: Supercharged
+            Supercharged Intercooled: Supercharged Intercooled
+            Triple Turbo Intercooled: Triple Turbo Intercooled
+            Turbo: Turbo
+            Turbo Intercooled: Turbo Intercooled
+            Turbo Supercharged Intercooled: Turbo Supercharged Intercooled
+            Twin Supercharged Intercooled: Twin Supercharged Intercooled
+            Twin Turbo Intercooled: Twin Turbo Intercooled
+
+    power_min:
+        label: Minimum Power:
+        span: left
+        commentAbove: Select the minimum power:
+        default: any
+        type: dropdown
+        options:
+            any: any
+            80 KW: 80 KW
+            100 KW: 100 KW
+            125 KW: 125 KW
+            150 KW: 150 KW
+            175 KW: 175 KW
+            200 KW: 200 KW
+            225 KW: 225 KW
+            250 KW: 250 KW
+            300 KW: 300 KW
+            350 KW: 350 KW
+
+    power_max:
+        label: Maximum Power:
+        span: right
+        commentAbove: Select the maximum power:
+        default: any
+        type: dropdown
+        options:
+            any: any
+            80 KW: 80 KW
+            100 KW: 100 KW
+            125 KW: 125 KW
+            150 KW: 150 KW
+            175 KW: 175 KW
+            200 KW: 200 KW
+            225 KW: 225 KW
+            250 KW: 250 KW
+            300 KW: 300 KW
+            350 KW: 350 KW
+
+    tow_braked_min:
+        label: Tow (Brake) Minimum:
+        span: left
+        commentAbove: Select the minimum tow:
+        default: any
+        type: dropdown
+        options:
+            any: any
+            1,000 KG: 1,000 KG
+            1,500 KG: 1,500 KG
+            2,000 KG: 2,000 KG
+            2,500 KG: 2,500 KG
+            2,750 KG: 2,750 KG
+            3,000 KG: 3,000 KG
+            3,250 KG: 3,250 KG
+            3,500 KG: 3,500 KG
+            3,750 KG: 3,750 KG
+            4,000 KG: 4,000 KG
+
+    tow_braked_max:
+        label: Tow (Brake) Maximum:
+        span: right
+        commentAbove: Select the maximum tow:
+        default: any
+        type: dropdown
+        options:
+            any: any
+            1,000 KG: 1,000 KG
+            1,500 KG: 1,500 KG
+            2,000 KG: 2,000 KG
+            2,500 KG: 2,500 KG
+            2,750 KG: 2,750 KG
+            3,000 KG: 3,000 KG
+            3,250 KG: 3,250 KG
+            3,500 KG: 3,500 KG
+            3,750 KG: 3,750 KG
+            4,000 KG: 4,000 KG
+
+    ancap_safety_rating:
+        label: ANCAP Safety Rating:
+        span: left
+        commentAbove: Select the safety rating:
+        placeholder: ANCAP Safety Rating
+        type: dropdown
+        options:
+            any: any
+            5 stars only: 5 stars only
+            less than 3.5 stars: less than 3.5 stars
+            4.5 stars or more: 4.5 stars or more
+            4 stars or more: 4 stars or more
+            3.5 stars or more: 3.5 stars or more
+
+    green_star_rating:
+        label: Green Star Rating:
+        span: right
+        commentAbove: Select the Green Star Rating:
+        placeholder: Green Star Rating
+        type: dropdown
+        options:
+            any: any
+            5 stars only: 5 stars only
+            less than 3.5 stars: less than 3.5 stars
+            4.5 stars or more: 4.5 stars or more
+            4 stars or more: 4 stars or more
+            3.5 stars or more: 3.5 stars or more
+
+    p_plate_approved:
+        label: P Plate Approved:
+        span: left
+        commentAbove: Select whether the vehicle is approved for P Plate Drivers:
+        placeholder: P Plate Approved
+        type: dropdown
+        options:
+            Queensland: Queensland
+            South Australia: South Australia
+            Victoria: Victoria
+            New South Wales: New South Wales
+            Tasmania: Tasmania
+            Western Australia: Western Australia
+            Northen Territory: Northen Territory
+
+    dealer_distance:
+        label: Dealer Distance
+        span: left
+        commentAbove: Enter the maximum distance away that you want your request seen by:

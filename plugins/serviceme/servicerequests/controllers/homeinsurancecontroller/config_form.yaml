@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Home Insurance Controller
+
+# Model Form Field configuration
+form: $/serviceme/servicerequests/models/homeinsurancecontroller/fields.yaml
+
+# Model Class name
+modelClass: ServiceMe\ServiceRequests\Models\HomeInsuranceController
+
+# Default redirect location
+defaultRedirect: serviceme/servicerequests/homeinsurancecontroller
+
+# Create page
+create:
+    title: Create Home Insurance Controller
+    redirect: serviceme/servicerequests/homeinsurancecontroller/update/:id
+    redirectClose: serviceme/servicerequests/homeinsurancecontroller
+
+# Update page
+update:
+    title: Edit Home Insurance Controller
+    redirect: serviceme/servicerequests/homeinsurancecontroller
+    redirectClose: serviceme/servicerequests/homeinsurancecontroller
+
+# Preview page
+preview:
+    title: Preview Home Insurance Controller

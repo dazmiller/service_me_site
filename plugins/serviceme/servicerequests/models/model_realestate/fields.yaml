@@ -1,0 +1,196 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    # ID field is displayed only in the backend
+    id:
+        label: ID
+        disabled: true
+        context: [create, update]
+
+    title:
+        label: Title
+        commentAbove: The title to help agents quickly find a property.
+        span: full
+        placseholder: Use this area to provide a good summary of what your looking for.
+
+    # Slogan field is displayed only in the front-end
+    # slogan:
+    #    label: Slogan
+    #    comment: This field is displayed only in frontend
+    #    span: right
+    #    context: [frontend]
+
+
+    postcode:
+        label: PoatCode
+        commentAbove: Enter the postcode of the suburb
+        span: left
+        placeholder: Enter a 4 digit postcode
+        attributes:
+            size: 10
+
+    newestablished:
+        label: New or Established
+        span: left
+        commentAbove: Please select whether you are searching for a new or established property.
+        type: dropdown
+        options:
+            New: New
+            Established: Established Property (Existing)
+
+    propertytype:
+        label: Property Type
+        span: left
+        commentAbove: Please select the type of property you are looking for
+        type: checkboxlist
+        default: Any
+        options:
+            Any: Any
+            Apartment/Flat/Unit: Apartment/Flat/Unit
+            House: House
+            New Apartment/Off the plan: New Apartment/Off the plan
+            Semi-Detached: Semi-Detached
+            Terrace: Terrace
+            Vacant Land: Vacant Land
+            Rural: Rural
+            Retirement Living: Retirement Living
+            Villa: Villa
+            Commercial: Commercial
+
+    minbeds:
+        label: Min Beds
+        span: left
+        commentAbove: Minimum Bedrooms
+
+    maxbeds:
+        label: Max Beds
+        span: right
+        commentAbove: Maximum Bedrooms
+
+    minprice:
+        label: Min Price
+        span: left
+        commentAbove: Minimum Price
+
+    maxprice:
+        label: Max Price
+        span: right
+        commentAbove: Maximum Price
+
+    indoorfeatures:
+        label: Indoor Features
+        span: left
+        commentAbove: Select the indoor features that you would like the property to contain.
+        type: checkboxlist
+        options:
+            Built in wardrobes:  Built in wardrobes
+            Cable or Satellite:  Cable or Satellite
+            Ensuite:  Ensuite
+            Floorboards:  Floorboards
+            Gas:  Gas
+            Internal Laundry:  Internal Laundry
+            Pets Allowed:  Pets Allowed
+            Secure Parking:  Secure Parking
+            Furnished:  Furnished
+            Ground floor:  Ground floor
+            Indoor Spa:  Indoor Spa
+            Gym:  Gym
+            Alarm System:  Alarm System
+            Intercom:  Intercom
+            Broadband internet access:  Broadband internet access
+            Bath:  Bath
+            Fireplace(s):  Fireplace(s)
+            Separate Dining Room:  Separate Dining Room
+            Heating:  Heating
+            Dishwasher:  Dishwasher
+            Study:  Study
+            Double glazed windows:  Double glazed windows
+            Energy efficient appliances:  Energy efficient appliances
+            Water efficient appliances:  Water efficient appliances
+            Wall / ceiling insulation:  Wall / ceiling insulation
+
+    outdoorfeatures:
+        label: OutDoor Features
+        span: right
+        commentAbove: Select the outdoor features that you would like the property to contain.
+        type: checkboxlist
+        options:
+            Swimming Pool:  Swimming Pool
+            Rainwater storage tank:  Rainwater storage tank
+            Greywater system:  Greywater system
+            Water efficient fixtures:  Water efficient fixtures
+            Solar hot water:  Solar hot water
+            Solar panels:  Solar panels
+            Tennis Court:  Tennis Court
+            Shed:  Shed
+            Fully fenced:  Fully fenced
+            Balcony / Deck:  Balcony / Deck
+            Garden / Courtyard:  Garden / Courtyard
+            Outdoor Spa:  Outdoor Spa
+            Water Views:  Water Views
+            North Facing:  North Facing
+            City Views:  City Views
+
+    bathrooms:
+        label: Bathrooms
+        span: left
+        commentAbove: Select the number of bathrooms you would like the property to contain.
+
+    parking:
+        label: Parking
+        span: right
+        commentAbove: Select the number of parking spaces you would like the property to contain.
+
+    landsize:
+        label: Land Size
+        span: left
+        commentAbove: Enter the minimum size of the land you would like the property to exist on.
+
+    livecloseto:
+        label: Live Close To
+        type: checkboxlist
+        span: left
+        commentAbove: Select items that you wish the property to be close too.
+        options:
+            Schools: Schools
+            Railway Stations: Railway Stations
+            Shopping Centres: Shopping Centres
+            Parks: Parks
+            Community Facilities: Community Facilities
+            Entertainment: Entertainment
+            Cafes: Cafes
+            Recreation Centres: Recreation Centres
+            Health Care: Health Care
+            Emergency Services: Emergency Services
+            Beaches: Beaches
+            Child Care Centres: Child Care Centres
+            Nightclubs/Pubs: Nightclubs/Pubs
+
+    liveawayfrom:
+        label: Live Away From
+        span: right
+        type: checkboxlist
+        commentAbove: Select items that you wish the property to be away from.
+        options:
+            Railway Lines: Railway Lines
+            Airports: Airports
+            Power Stations: Power Stations
+            Rubbish Dumps: Rubbish Dumps
+            Gaols: Gaols
+            Cemeteries: Cemeteries
+            Treatment Plants: Treatment Plants
+            Industrial Parks: Industrial Parks
+            Smoke Stacks: Smoke Stacks
+            Busy Roads: Busy Roads
+            Nightclubs/Pubs: Nightclubs/Pubs
+            Schools: Schools
+
+    comments:
+        label: Comments and Keywords
+        type: textarea
+        commentAbove: Please add any comments or other information concerning the property you are seeking.
+        placeholder: Enter information that is not on the form that you wish the agent to use to assist in locating your perfect property.
+

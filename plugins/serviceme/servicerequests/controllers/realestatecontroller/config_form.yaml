@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Real Estate Controller
+
+# Model Form Field configuration
+form: $/serviceme/servicerequests/models/model_realestate/fields.yaml
+
+# Model Class name
+modelClass: ServiceMe\ServiceRequests\Models\ModelRealEstate
+
+# Default redirect location
+defaultRedirect: serviceme/servicerequests/buy_vehicle
+
+# Create page
+create:
+    title: Create realestate Request
+    redirect: serviceme/servicerequesst/buy_vehicle/update/:id
+    redirectClose: serviceme/servicerequests/buy_vehicle
+
+# Update page
+update:
+    title: Edit realestate Request
+    redirect: serviceme/servicerequests/realestate
+    redirectClose: serviceme/servicerequests/realestate
+
+# Preview page
+preview:
+    title: Preview realestate Request
