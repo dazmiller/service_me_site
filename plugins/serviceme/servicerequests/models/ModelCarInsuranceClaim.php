@@ -3,15 +3,15 @@
 use Model;
 
 /**
- * ModelCarInsurance Model
+ * ModelCarInsuranceClaim Model
  */
-class ModelCarInsurance extends Model
+class ModelCarInsuranceClaim extends Model
 {
 
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'serviceme_servicerequests_model_car_insurances';
+    public $table = 'serviceme_servicerequests_model_car_insurance_claims';
 
     /**
      * @var array Guarded fields
@@ -21,20 +21,13 @@ class ModelCarInsurance extends Model
     /**
      * @var array Fillable fields
      */
-    protected $fillable = [];
+    protected $fillable = ['car_insurance_id','year','claim_type'];
 
     /**
      * @var array Relations
      */
     public $hasOne = [];
-    /**
-     * @var array Relations
-     */
-    public $hasMany = [
-        'claims' => ['ServiceMe\ServiceRequests\Models\ModelCarInsuranceClaim']
-    ];
-
-
+    public $hasMany = [];
     public $belongsTo = [];
     public $belongsToMany = [];
     public $morphTo = [];

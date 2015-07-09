@@ -1,0 +1,31 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+
+    year:
+        label: Year
+        span: left
+
+    claim_type:
+        label: Claim Type
+        type: dropdown
+        options:
+            Collision Or Damage-At Fault: Collision Or Damage At Fault
+            Collision Or Damage-Not At Fault: Collision Or Damage-Not At Fault
+            Vandalism or Arson: Vandalism or Arson
+            Parked Damage - Responsible Party Identified: Parked Damage - Responsible Party Identified
+            Damage Caused By An Animal: Damage Caused By An Animal
+            Fire (Not Arson): Fire (Not Arson)
+            Theft Of Car: Theft Of Car
+            Theft Of Accessories From The Car: Theft Of Accessories From The Car
+            Parked Damage - Responsible Party Unidentified: Parked Damage - Responsible Party Unidentified
+            Storm Or Hail Damage: Storm Or Hail Damage
+            Windscreen Damage To A Vehicle: Windscreen Damage To A Vehicle
+
+
+

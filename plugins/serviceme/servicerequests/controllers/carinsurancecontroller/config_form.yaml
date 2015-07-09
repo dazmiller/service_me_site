@@ -6,10 +6,10 @@
 name: Car Insurance Controller
 
 # Model Form Field configuration
-form: $/serviceme/servicerequests/models/carinsurancecontroller/fields.yaml
+form: $/serviceme/servicerequests/models/modelcarinsurance/fields.yaml
 
 # Model Class name
-modelClass: ServiceMe\ServiceRequests\Models\CarInsuranceController
+modelClass: ServiceMe\ServiceRequests\Models\ModelCarInsurance
 
 # Default redirect location
 defaultRedirect: serviceme/servicerequests/carinsurancecontroller
