@@ -7,9 +7,13 @@ fields:
         label: ID
         disabled: true
 
-    id:
-        label: ID
-        disabled: true
+    make:
+        label: Make
+        span: full
+
+    claims:
+        type: partial
+        path: field_claims
 
 
 

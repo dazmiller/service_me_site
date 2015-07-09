@@ -29,7 +29,8 @@ class Plugin extends PluginBase
         return [
             '\ServiceMe\ServiceRequests\Components\RealEstate' => 'RealEstateForm',
             '\ServiceMe\ServiceRequests\Components\BuyVehicle' => 'BuyVehicleForm',
-            '\ServiceMe\ServiceRequests\Components\HomeInsurance' => 'HomeInsuranceForm'
+            '\ServiceMe\ServiceRequests\Components\HomeInsurance' => 'HomeInsuranceForm',
+            '\ServiceMe\ServiceRequests\Components\CarInsurance' => 'CarInsuranceForm'
         ];
     }
 

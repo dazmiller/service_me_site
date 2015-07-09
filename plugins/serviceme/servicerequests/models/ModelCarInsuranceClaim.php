@@ -28,7 +28,10 @@ class ModelCarInsuranceClaim extends Model
      */
     public $hasOne = [];
     public $hasMany = [];
-    public $belongsTo = [];
+    public $belongsTo = [
+        'claims' => ['ServiceMe\ServiceRequests\Models\ModelCarInsurance']
+
+    ];
     public $belongsToMany = [];
     public $morphTo = [];
     public $morphOne = [];

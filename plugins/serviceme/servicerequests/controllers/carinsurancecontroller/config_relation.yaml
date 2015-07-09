@@ -1,0 +1,16 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+claims:
+    label: Previous Claims
+    view:
+        list: $/serviceme/servicerequests/models/modelcarinsuranceclaim/columns.yaml
+        form: $/serviceme/servicerequests/models/modelcarinsuranceclaim/fields.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/serviceme/servicerequests/models/modelcarinsuranceclaim/fields.yaml
+        recordsPerPage: 10
+        list: $/serviceme/servicerequests/models/modelcarinsuranceclaim/fields.yaml
+
+

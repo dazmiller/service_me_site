@@ -6,3 +6,7 @@ columns:
     id:
         label: ID
         searchable: true
+
+   claims:
+        type: partial
+        path: field_claims
