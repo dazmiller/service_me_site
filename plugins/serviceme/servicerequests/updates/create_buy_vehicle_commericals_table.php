@@ -46,6 +46,10 @@ class CreateBuyVehicleCommericalsTable extends Migration
             $table->string('p_plate_approved', 16);
             $table->string('dealer_postcodes', 100);
             $table->integer('dealer_distance');
+            // backend fields
+            $table->integer('status');
+            $table->integer('open');
+            $table->integer('user_id');
             $table->timestamps();
         });
     }

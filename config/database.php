@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'default' => 'mysql',
+    'default' => 'mysql_dev',
 
     /*
     |--------------------------------------------------------------------------
@@ -56,7 +56,7 @@ return [
             'driver'    => 'mysql',
             'host'      => 'localhost',
             'port'      => 3306,
-            'database'  => 'october',
+            'database'  => 'serviceme',
             'username'  => 'root',
             'password'  => 'jasper',
             'charset'   => 'utf8',

@@ -28,6 +28,10 @@ class CreateModelRealEstatesTable extends Migration
             $table->json('livecloseto');
             $table->json('liveawayfrom');
             $table->text('comments');
+            // backend fields
+            $table->integer('status');
+            $table->integer('open');
+            $table->integer('user_id');
             $table->timestamps();
         });
     }

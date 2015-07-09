@@ -1,0 +1,356 @@
+[
+    {
+        "name": "owl/address",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/october-widgets/address.git",
+            "reference": "30dd916d8a833384feaf8b0318e05a5cbaa29891"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/october-widgets/address/zipball/30dd916d8a833384feaf8b0318e05a5cbaa29891",
+            "reference": "30dd916d8a833384feaf8b0318e05a5cbaa29891",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2015-03-07 23:42:49",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Owl\\FormWidgets\\Address\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Alexey Bobkov",
+                "email": "aleksey.bobkov@gmail.com"
+            },
+            {
+                "name": "Samuel Georges",
+                "email": "daftspunky@gmail.com"
+            }
+        ],
+        "description": "Address widget for OctoberCMS.",
+        "homepage": "http://github.com/october-widgets",
+        "keywords": [
+            "address",
+            "october",
+            "october cms",
+            "owl"
+        ]
+    },
+    {
+        "name": "owl/comment",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/october-widgets/comment.git",
+            "reference": "76f40d4ca7f4e481a82e31624575bf9e873d880a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/october-widgets/comment/zipball/76f40d4ca7f4e481a82e31624575bf9e873d880a",
+            "reference": "76f40d4ca7f4e481a82e31624575bf9e873d880a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2015-04-09 16:09:36",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Owl\\FormWidgets\\Comment\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Scott Bedard",
+                "email": "scottbedard90@gmail.com"
+            }
+        ],
+        "description": "A simple placeholder widget for OctoberCMS.",
+        "homepage": "http://github.com/october-widgets",
+        "keywords": [
+            "comment",
+            "october",
+            "october cms",
+            "owl"
+        ]
+    },
+    {
+        "name": "owl/hasmany",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/october-widgets/hasmany.git",
+            "reference": "dc906963a6bc9f0aa868ced1df39e9ccceed5c9b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/october-widgets/hasmany/zipball/dc906963a6bc9f0aa868ced1df39e9ccceed5c9b",
+            "reference": "dc906963a6bc9f0aa868ced1df39e9ccceed5c9b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2015-04-09 16:09:36",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Owl\\FormWidgets\\HasMany\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Scott Bedard",
+                "email": "scottbedard90@gmail.com"
+            }
+        ],
+        "description": "Has-many / belongs-to relation subforms.",
+        "homepage": "http://github.com/october-widgets",
+        "keywords": [
+            "hasmany",
+            "october",
+            "october cms",
+            "owl"
+        ]
+    },
+    {
+        "name": "owl/knob",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/october-widgets/knob.git",
+            "reference": "22d5e7586d2cff30e388679ce1ab3975a7c1e48c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/october-widgets/knob/zipball/22d5e7586d2cff30e388679ce1ab3975a7c1e48c",
+            "reference": "22d5e7586d2cff30e388679ce1ab3975a7c1e48c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2015-06-30 03:23:46",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Owl\\FormWidgets\\Knob\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Scott Bedard",
+                "email": "scottbedard90@gmail.com"
+            }
+        ],
+        "description": "Knob widget for OctoberCMS.",
+        "homepage": "http://github.com/october-widgets",
+        "keywords": [
+            "knob",
+            "october",
+            "october cms",
+            "owl"
+        ]
+    },
+    {
+        "name": "owl/money",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/october-widgets/money.git",
+            "reference": "e88a41551b61e29a00577352190a85d036ea5c34"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/october-widgets/money/zipball/e88a41551b61e29a00577352190a85d036ea5c34",
+            "reference": "e88a41551b61e29a00577352190a85d036ea5c34",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2015-02-27 18:26:38",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Owl\\FormWidgets\\Money\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Scott Bedard",
+                "email": "scottbedard90@gmail.com"
+            }
+        ],
+        "description": "Tag form widget for OctoberCMS.",
+        "homepage": "http://github.com/october-widgets",
+        "keywords": [
+            "money",
+            "october",
+            "october cms",
+            "owl"
+        ]
+    },
+    {
+        "name": "owl/password",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/october-widgets/password.git",
+            "reference": "3f3ade06823527285051e5b2fb0f1651ca83c38c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/october-widgets/password/zipball/3f3ade06823527285051e5b2fb0f1651ca83c38c",
+            "reference": "3f3ade06823527285051e5b2fb0f1651ca83c38c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2015-04-02 07:38:30",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Owl\\FormWidgets\\Password\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Scott Bedard",
+                "email": "scottbedard90@gmail.com"
+            }
+        ],
+        "description": "Password widget for OctoberCMS.",
+        "homepage": "http://github.com/october-widgets",
+        "keywords": [
+            "october",
+            "october cms",
+            "owl",
+            "password"
+        ]
+    },
+    {
+        "name": "owl/tagbox",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/october-widgets/tagbox.git",
+            "reference": "9ed118d04764139c1071b05d301cf933a770da8d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/october-widgets/tagbox/zipball/9ed118d04764139c1071b05d301cf933a770da8d",
+            "reference": "9ed118d04764139c1071b05d301cf933a770da8d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2015-04-14 19:11:32",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Owl\\FormWidgets\\Tagbox\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Scott Bedard",
+                "email": "scottbedard90@gmail.com"
+            }
+        ],
+        "description": "Tag form widget for OctoberCMS.",
+        "homepage": "http://github.com/october-widgets",
+        "keywords": [
+            "october",
+            "october cms",
+            "owl",
+            "tagbox"
+        ]
+    }
+]

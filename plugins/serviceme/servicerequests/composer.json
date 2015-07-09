@@ -1,0 +1,11 @@
+{
+	"require": {
+    "owl/address": "~1.0@dev",
+    "owl/comment": "~1.0@dev",
+    "owl/hasmany": "~1.0@dev",
+    "owl/knob": "~1.0@dev",
+    "owl/money": "~1.0@dev",
+    "owl/password": "~1.0@dev",
+    "owl/tagbox": "~1.0@dev"
+}
+}

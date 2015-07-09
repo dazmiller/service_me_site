@@ -3,4 +3,5 @@
     - Create real estates Table
     - create_model__real_estates_table.php
     - create_buy_vehicle_commericals_table.php
+    - create_model_home_insurances_table.php
     - SeedRealEstateTable.php

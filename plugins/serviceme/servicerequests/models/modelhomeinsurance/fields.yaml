@@ -3,6 +3,364 @@
 # ===================================
 
 fields:
+
+    # ID field is displayed only in the backend
     id:
         label: ID
         disabled: true
+        context: [create, update]
+
+    address:
+        label: Address
+        commentAbove: Please enter your address:
+        span: left
+        placeholder: Enter the address where the property is located.
+        type: owl-address
+        fieldMap:
+             zip: postcode
+
+
+    postcode:
+        label: PostCode
+        commentAbove: Enter the postcode of the suburb:
+        span: right
+        placeholder: Enter a 4 digit postcode
+
+    proposed_start_date:
+        label: Proposed Start Date
+        commentAbove: Select the date you would like the policy to start:
+        span: left
+        mode: date
+        minDate: 2015-03-01
+        type: datepicker
+
+    estimated_year_construction:
+        label: Estimated Construction Year
+        commentAbove: Enter the estimated construction year (if known):
+        span: right
+        placeholder: The estimated year the property was constructed.
+
+    number_storeys:
+        label: Storeys
+        commentAbove: How many storeys does the property contain:
+        span: left
+        type: dropdown
+        options:
+            1: 1
+            2: 2
+            3: 3
+            4: 4
+            5: 5        
+
+    number_bathrooms:
+        label: Bathrooms
+        commentAbove: How many bathrooms does the property contain:
+        span: right
+        type: dropdown
+        options:
+            1: 1
+            2: 2
+            3: 3
+            4: 4
+            5: 5
+            6: 6
+            7: 7
+            8: 8
+
+    number_bedrooms:
+        label: Bedrooms
+        commentAbove: How many bedrooms does the property contain:
+        span: left
+        type: dropdown
+        options:
+            1: 1
+            2: 2
+            3: 3
+            4: 4
+            5: 5
+            6: 6
+            7: 7
+            8: 8
+            9: 9
+            10: 10
+
+    bedroom_size:
+        label: Bedroom Size
+        commentAbove: Enter the average size of the bedrooms (m&#94;&#178;):
+        span: right   
+
+    home_desc:
+        label: Description
+        commentAbove: Enter a short description of your home:
+        span: full
+        type: textarea
+
+    exterior_walls:
+        label: Exterior Wall Type
+        commentAbove: Select the material type of your exterior walls:
+        span: left 
+        type: dropdown
+        default: Unknown
+        options:
+            Double Brick: Double Brick
+            Brick Veneer: Brick Veneer
+            Timber/WeatherBoard: Timber/WeatherBoard
+            Steel: Steel
+            Concrete/Hebel: Concrete/Hebel
+            Fibro/Asbestes Cement: Fibro/Asbestes Cement
+            Stone/Sandstone: Stone/Sandstone
+            Polystrene: Polystrene
+            Mud Brick: Mud Brick
+            Other Construction: Other Construction
+            Unknown: Unknown
+
+    roof_material:
+        label: Roofing Material
+        commentAbove: Select the material type of your roof:
+        span: right 
+        type: dropdown
+        default: Unknown        
+        options:
+            Concrete Tiles: Concrete Tiles
+            Fibro: Fibro
+            Metal/Iron/Colorbond:  Metal/Iron/Colorbond
+            Slate: Slate
+            Tile: Tile
+            Copper: Copper
+            Tin: Tin
+            Other: Other
+            Shingle: Shingle
+            Thatched: Thatched
+            Unknown: Unknown
+
+    home_occupied:
+        label: Home Occupied
+        commentAbove: How is your home occupied? Are you the:
+        span: left 
+        type: dropdown
+        options:
+            Owner Occupier: Owner Occupier
+            Landlord: Landlord
+            Tenant:  Tenant
+            Boarder: Boarder
+            Unoccupied: Unoccupied
+
+    strata_plan:
+        label: Strata Plan
+        commentAbove: Is your home part of a strata title plan?:
+        span: left 
+        type: radio
+        options:
+            1: Yes
+            0: No
+
+    any_below_ground:
+        label: Below Ground
+        commentAbove: Does your house contain any below ground levels (basements, etc)?:
+        span: right 
+        type: radio
+        options:
+            1: Yes
+            0: No
+
+    pool:
+        label: Pool
+        commentAbove: Is there a pool located at your home?:
+        span: left 
+        type: radio
+        options:
+            1: Yes
+            0: No
+
+    inground_pool:
+        label: Inground Pool
+        commentAbove: Is your pool InGround?:
+        span: right 
+        type: radio
+        options:
+            1: Yes
+            0: No
+
+    tennis_court:
+        label: Tennis Court
+        commentAbove: Do you have a tennis court?:
+        span: left 
+        type: radio
+        options:
+            1: Yes
+            0: No
+
+    ducted_aircon:
+        label: Ducted Air Conditioning
+        commentAbove: Do you have ducted Air Conditioning?:
+        span: right 
+        type: radio
+        options:
+            1: Yes
+            0: No
+
+    curved_walls:
+        label: Curved Walls
+        commentAbove: Does your house have curved walls?:
+        span: left 
+        type: radio
+        options:
+            1: Yes
+            0: No
+
+    plantation_shutters:
+        label: Plantation Shutters
+        commentAbove: Does your house have plantation shutters?:
+        span: right 
+        type: radio
+        options:
+            1: Yes
+            0: No
+
+    large_glazed_areas:
+        label: Large Glazed Areas
+        commentAbove: Does your house have large glazed areas (etc sunroom)?:
+        span: left 
+        type: radio
+        options:
+            1: Yes
+            0: No
+
+    granite_marble_tiling:
+        label: Granite Marble Tiles
+        commentAbove: Does your house have stone, granite or marble tiling?:
+        span: right 
+        type: radio
+        options:
+            1: Yes
+            0: No
+
+    euro_kitchen_appliances:
+        label: European Kitchen Appliances
+        commentAbove: Does your house European kitchen appliances?:
+        span: left 
+        type: radio
+        options:
+            1: Yes
+            0: No
+
+    cover_storm_dmg_gates_fences:
+        label: Cover Storm Damage to Gates/Fences
+        commentAbove: Do wish to cover your gates and fences for storm damage?:
+        span: left 
+        type: radio
+        options:
+            1: Yes
+            0: No
+
+    cover_accidental_dmg:
+        label: Cover Accidental Damage
+        commentAbove: Do wish to cover for accidental damage?:
+        span: right 
+        type: radio
+        options:
+            1: Yes
+            0: No
+
+    security_devices:
+        label: Security Devices
+        span: left
+        commentAbove: Select the security devices that your home contains.
+        type: checkboxlist
+        options:
+            Deadlocks: Deadlocks
+            Security Screen Doors: Security Screen Doors
+            Roller Shutters: Roller Shutters
+            Local Alarm: Local Alarm
+            24hr Monitored Alarm: 24hr Monitored Alarm
+            Concierge: Concierge
+            Security Building: Security Building
+
+
+    name:
+        label: Policy Applicants Name
+        commentAbove: Enter the full name of the person applying:
+        span: full
+        placeholder: Enter full name
+
+
+    dob_oldest_policy_holder:
+        label: DOB Oldest Policy Holder
+        commentAbove: Select the Date Of Birth of the oldest person applying:
+        span: left
+        mode: date
+        minDate: 1910-01-01
+        type: datepicker
+
+    entitled_no_claim:
+        label: Over 50 No Claim
+        commentAbove: Is this person entitled for the Over 50 Claim?:
+        span: right 
+        type: radio
+        options:
+            1: Yes
+            0: No
+
+    had_policy_cancelled:
+        label: Policy Cancelled
+        commentAbove: Have you ever previously had a policy cancelled?:
+        span: right 
+        type: radio
+        options:
+            1: Yes
+            0: No
+
+    num_claims_total:
+        label: Claims Declined
+        commentAbove: How many times have you made claims previously:
+        span: left
+        default: 0
+
+    num_times_claim_declined:
+        label: Claims Declined
+        commentAbove: How many times have you had claims previously declined:
+        span: right
+        default: 0
+
+    num_convictions:
+        label: Convictions
+        commentAbove: How many convictions (if any) do you have:
+        span: left
+        default: 0
+
+    mortgate:
+        label: Mortgage
+        commentAbove: Do you currently have a mortgage on this property?:
+        span: left 
+        type: radio
+        options:
+            1: Yes
+            0: No
+
+    insure_name_or_company:
+        label: Details
+        commentAbove: Enter the persons name or company name that the property will be insured under:
+        span: full
+        placeholder: Enter the policy applicant or company name that the policy will be issued to.
+
+
+
+    status:
+        label: Status
+        commentAbove: Current Status of record
+        span: left
+        type: dropdown
+        context: [backend]
+        options:
+            0: Open
+            1: In Progress
+            2: Closed
+            3: Deleted
+            4: False
+
+    comments:
+        label: Comments and Keywords
+        type: textarea
+        commentAbove: Please add any comments or other information concerning the property you are seeking to insure.
+        placeholder: Enter information that is not on the form that you wish the insurer to be aware of.
+

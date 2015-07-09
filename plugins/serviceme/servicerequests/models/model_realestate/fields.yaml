@@ -22,7 +22,18 @@ fields:
     #    comment: This field is displayed only in frontend
     #    span: right
     #    context: [frontend]
-
+    status:
+        label: Status
+        commentAbove: Current Status of record
+        span: left
+        type: dropdown
+        context: [backend]
+        options:
+            0: Open
+            1: In Progress
+            2: Closed
+            3: Deleted
+            4: False
 
     postcode:
         label: PoatCode

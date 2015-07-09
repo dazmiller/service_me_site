@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Car Insurance Controller
+
+# Model Form Field configuration
+form: $/serviceme/servicerequests/models/carinsurancecontroller/fields.yaml
+
+# Model Class name
+modelClass: ServiceMe\ServiceRequests\Models\CarInsuranceController
+
+# Default redirect location
+defaultRedirect: serviceme/servicerequests/carinsurancecontroller
+
+# Create page
+create:
+    title: Create Car Insurance Controller
+    redirect: serviceme/servicerequests/carinsurancecontroller/update/:id
+    redirectClose: serviceme/servicerequests/carinsurancecontroller
+
+# Update page
+update:
+    title: Edit Car Insurance Controller
+    redirect: serviceme/servicerequests/carinsurancecontroller
+    redirectClose: serviceme/servicerequests/carinsurancecontroller
+
+# Preview page
+preview:
+    title: Preview Car Insurance Controller

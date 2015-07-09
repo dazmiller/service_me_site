@@ -1,4 +1,4 @@
-1436049381s:1184:"a:2:{s:5:"mtime";i:1436048778;s:7:"content";s:1129:"<div class="confirm-container bg-success hide">
+1436328665s:1163:"a:2:{s:5:"mtime";i:1436050190;s:7:"content";s:1108:"<div class="confirm-container bg-success hide">
     <p>Successfully created a new enquiry!</p>
 </div>
 
@@ -13,7 +13,7 @@
 
                 <form role="form"
                       data-request="onSave"
-                     
+
                       data-request-redirect="/serviceme/request/buy_vehicle"  >
 
                     {{ form.formRender()|raw }}

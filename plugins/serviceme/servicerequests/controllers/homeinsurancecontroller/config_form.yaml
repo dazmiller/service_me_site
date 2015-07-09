@@ -6,10 +6,10 @@
 name: Home Insurance Controller
 
 # Model Form Field configuration
-form: $/serviceme/servicerequests/models/homeinsurancecontroller/fields.yaml
+form: $/serviceme/servicerequests/models/modelhomeinsurance/fields.yaml
 
 # Model Class name
-modelClass: ServiceMe\ServiceRequests\Models\HomeInsuranceController
+modelClass: ServiceMe\ServiceRequests\Models\ModelHomeInsurance
 
 # Default redirect location
 defaultRedirect: serviceme/servicerequests/homeinsurancecontroller
